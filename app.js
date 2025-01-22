@@ -51,6 +51,6 @@ for (const[amigo,sorteado]of Object.entries(sorteio)){
     li.textContent = `${amigo} tirou ${sorteado}`;
     resultado.appendChild(li);
 }
-
+document.querySelector('.button-draw').addEventListener('click', sortearAmigo);
 
 
