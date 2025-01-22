@@ -41,7 +41,7 @@ function sortearAmigo() {
     }
 // Para sortear um amigo
     const indiceSorteado = Math.floor(Math.random()* amigos.length);
-    const amigoSorteado = amigos (indiceSorteado);
+    const amigoSorteado = amigos [indiceSorteado];
 
 // Para exibir o resultado
     resultado.textContent = `O amigo secreto sorteado é: ${amigoSorteado} `;
